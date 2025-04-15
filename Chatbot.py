@@ -8,7 +8,7 @@ import threading
 from datetime import datetime
 import re
 
-WEATHER_API_KEY = '325f2d9a12fd4992ad1150257242210'
+WEATHER_API_KEY = 'Enter you weather Api key here'
 
 def load_responses(filename='responses.txt'):
     responses = {}
@@ -66,7 +66,7 @@ def search_duckduckgo(query):
 def search_serpapi(query):
     params = {
         "q": query,
-        "api_key": "b697e151f5d1ebd6a375293fa3008a23dbc74c9f3a684183654dc16c072c07fd",
+        "api_key": "Enter you serp api key here",
         "num": 5
     }
     search = GoogleSearch(params)
