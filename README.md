@@ -31,4 +31,10 @@ This is a Python-based voice-enabled AI chatbot that can answer factual question
 Install dependencies using:
 
 ```bash
-pip install 
+pip install
+```
+## Usage Instructions
+Add and generate a weather api key in the code
+Add and generate a serp api key in the code
+Enjoy the Chatbot!!
+
